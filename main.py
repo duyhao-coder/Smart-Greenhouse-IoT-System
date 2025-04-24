@@ -43,7 +43,7 @@ event_manager.add_timer_event(15000, on_event_timer_callback_e_u_a_d_U)
 if True:
   display.scroll('Hello, World!')
   mqtt.connect_wifi('ACLAB', 'ACLAB2023')
-  mqtt.connect_broker(server='io.adafruit.com', port=1883, username='HeroHao', password='aio_lpqA26j54D9mkXRgEHJwRt5qSjSP')
+  mqtt.connect_broker(server='io.adafruit.com', port=1883, username='add name', password='add key')
   mqtt.on_receive_message('button2', on_mqtt_message_receive_callback__button2_)
   mqtt.on_receive_message('AI', on_mqtt_message_receive_callback__AI_)
   status = 0

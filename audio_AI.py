@@ -7,8 +7,8 @@ import scipy.io.wavfile as wav
 
 # ----------- CẤU HÌNH ADAFRUIT -------------
 AIO_FEED_ID = "AI"
-AIO_USERNAME = "HeroHao"   
-AIO_KEY = "aio_lpqA26j54D9mkXRgEHJwRt5qSjSP"         
+AIO_USERNAME = "add nam"   
+AIO_KEY = "add key"         
 
 # ----------- KẾT NỐI MQTT -------------
 def connected(client):
